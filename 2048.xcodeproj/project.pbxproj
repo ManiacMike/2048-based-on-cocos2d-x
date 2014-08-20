@@ -286,7 +286,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27C1BE54194A7C0800E513F3 /* 2048-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2048-Bridging-Header.h"; sourceTree = "<group>"; };
 		27E29F49190D21E2008E34CC /* 2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E29F4C190D21E2008E34CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		27E29F4E190D21E2008E34CC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -2111,7 +2110,6 @@
 				27E2A2FC190D22BB008E34CC /* Number_grid.cpp */,
 				27E97EB9190E89C6009543A9 /* Martrix.h */,
 				27E97EBA190E96C5009543A9 /* Martrix.cpp */,
-				27C1BE54194A7C0800E513F3 /* 2048-Bridging-Header.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

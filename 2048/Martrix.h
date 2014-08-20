@@ -23,12 +23,16 @@ public:
     void addNumberToMartrix(int num,int row ,int column);
     //返回空白处 10,11,41
     vector<int> getSpace();
-    
+    //当前矩阵
     vector< vector<int> > cur_martrix;
-protected:    
+protected:
+    //矩阵行和列都倒过来
     vector< vector<int> > transferMartrix(vector< vector<int> > input_martrix);
+    //矩阵列倒过来
     vector< vector<int> > reverseMartrix(vector< vector<int> > input_martrix);
+    //核心算法，转换那行数字，返回排队后的  数字和action code
     orderedLine order(vector<int> line);
+    //打印矩阵
     void print_martrix(vector< vector<int> >);
 };
 
